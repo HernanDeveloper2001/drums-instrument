@@ -1,0 +1,7 @@
+.pad-bank {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 272px;
+    width: 50%;
+    margin: 0 20px;
+}

@@ -1,0 +1,26 @@
+.drum-pad {
+  position: relative;
+  width: 100px;
+  background-color: #808080;
+  height: 80px;
+  margin-right: 10px;
+  font-family: 'Russo One', sans-serif;
+  box-shadow: 3px 3px 5px #000;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: transform 0.3s ease;
+}
+
+.drum-pad:hover {
+  background-color: orange;
+  transform: scale(1.075);
+}
+.drum-pad:active {
+  background-color: orange;
+  transform: scale(0.7);
+}
+
+

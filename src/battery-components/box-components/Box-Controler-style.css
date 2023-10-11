@@ -1,0 +1,17 @@
+.controls-container {
+  width: 40%;
+  height: 272px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Russo One', sans-serif;
+  gap: 10px;
+}
+
+.entry {
+  width: 90%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #808080;
+}
